@@ -1,0 +1,133 @@
+.mainDiv {
+  display: inline-flex;
+  flex-direction: flex;
+  margin: 0 10px;
+}
+
+.linkDiv {
+  display: inline-flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 0 6px;
+  top: 20px;
+}
+.linkDivStore {
+  cursor: pointer;
+  display: inline-flex;
+  background: none;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  border-radius: 50px;
+  margin: 0 62px;
+  line-height: 1.4;
+  right: 320px;
+}
+.linkDivSignIn {
+  display: inline-flex;
+  cursor: pointer;
+  background: none;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  margin: 0 2px;
+  border-radius: 50px;
+  line-height: 1.4;
+  right: 120px;
+}
+.linkDivJoinNow {
+  display: inline-flex;
+  cursor: pointer;
+  background: none;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  margin: 0 12px;
+  border-radius: 50px;
+  line-height: 1.4;
+  right: 220px;
+}
+.linkDivFlex {
+  display: flex;
+  flex-direction: row;
+  cursor: pointer;
+  justify-content:left;
+  align-items: flex-start;
+  position: static;
+  margin: 0 150px;
+  font-size: 1rem;
+  bottom: 10px;
+}
+
+.footerContainer {
+  display: inline-flex;
+  cursor: pointer;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  box-sizing: border-box;
+  justify-content: left;
+  align-items: flex-start;
+  position: relative;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1440px;
+  padding: 0 170px 0px;
+}
+
+.social {
+  display: flex;
+  align-items: left;
+  margin: 0 5px;
+}
+.social img {
+  width: 35px;
+  height: 35px;
+}
+
+.social a {
+  text-decoration: none;
+  margin-right: 50px;
+}
+.rowContainer {
+  display: inline-flex;
+  cursor: pointer;
+  box-sizing: border-box;
+  position: static;
+  align-items:flex-start;
+  margin-top: 0.2rem;
+  margin-bottom: 0.4rem;
+  line-height: 24px;
+}
+.divider {
+  width: 95%;
+  height: 1px;
+  background-color: black;
+  color: #000;
+  margin: 40px auto;
+}
+
+.menuNavbar{
+  display: flex;
+  flex-direction: row;
+  cursor: pointer;
+  box-sizing: border-box;
+  position: fixed;
+  max-width: 1730px;
+  max-height: 51.5px;
+  padding-left: 131px;
+}
+.drinksList{
+  display: inline-flex;
+  flex-direction: column;
+  flex-basis: 150px;
+  cursor: pointer;
+  position: static;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding-top: 1.6rem;
+  padding-bottom: 1.6rem;
+}
+.drinksListArray{
+  display: block;
+  box-sizing: border-box;
+}
