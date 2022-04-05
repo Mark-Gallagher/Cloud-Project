@@ -1,0 +1,61 @@
+.menuNavbar {
+    display: flex;
+    flex-direction: row;
+    cursor: pointer;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    text-decoration: none;
+    margin-right: 0 40px;
+    max-width: 1730px;
+    max-height: 51.5px;
+    padding-left: 131px;
+    padding: 0 120px 20px;
+}
+
+.drinksList {
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+    justify-content: space-between;
+    align-items: flex-start;
+    position: static;
+    margin: 0 60px;
+    padding-top: 1.6rem;
+    padding-bottom: 1.6rem;
+    padding: 0 10px 10px;
+}
+
+.drinksArrayList {
+    display: flex;
+    flex-wrap: wrap;
+    cursor: pointer;
+    box-sizing: border-box;
+    justify-content:space-between;
+    align-items: flex-start;
+    padding: 50px 400px;
+    
+}
+.drinksArrayList img{
+    width: 150px;
+    height: 100px;
+    margin-top: 15px;
+    margin-right: 10px;
+}
+
+.foodsArrayList {
+    display: flex;
+    flex-wrap: wrap;
+    cursor: pointer;
+    box-sizing: border-box;
+    justify-content: space-between ;
+    align-items: flex-start;
+    padding: 50px 400px;
+
+}
+
+.foodsArrayList img {
+    width: 150px;
+    height: 100px;
+    margin-top: 15px;
+    margin-right: 10px;
+}
