@@ -38,7 +38,7 @@ function Menu(props) {
       <div>
         <nav>
           <section>
-            <ul className={classes.drinksList}>
+            <ul className={classes.sidebarList}>
               <li>
                 <h4>Drinks</h4>
                 <Link href="/Hot Coffees">
@@ -78,7 +78,7 @@ function Menu(props) {
             </ul>
           </section>
           <section>
-            <ul className={classes.drinksList}>
+            <ul className={classes.sidebarList}>
               <li>
                 <h4>Food</h4>
                 <Link href="/Hot Breakfast">
