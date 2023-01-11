@@ -1,36 +1,282 @@
-.container {
-    height: calc(100vh - 100px);
-    
-    overflow: hidden;
-    position: relative;
-  }
+.mainDiv{
+  box-sizing: content-box; 
+  display: block ;
+  float: none;
+  line-height: 24px;
+  position: static;
+  z-index: 0;
+}
+.greenContainer{
+  box-sizing: border-box;
+  display: block;
+  float: none;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  position: static;
+  padding: 0 var(--space-6);
+  text-align: center;
+  max-width: 1440px;
+  z-index: auto;
+}
+.greenContainerInner{
+  background-color: #d4e9e2;
+  box-sizing: border-box;
+  display: block;
+  float: none;
+  font-weight: 400;
+  justify-content: center;
+  line-height: 24px;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  position: static; 
+  padding: 0 var(--space-6);
+  text-align: center;
+  max-width: 1440px;
+  z-index: auto;
+}
+.greenContainerP {
+  box-sizing: border-box;
+  color: #1e3932;
+  display: block;
+  float: none;
+  font-size: 24px;
+  font-weight: 600;
+  justify-content: center;
+  line-height: 36px;
+  padding-top: 3.2rem !important;
+  padding-bottom: 3.2rem !important;
+  position: static;
+  text-align: center;
+  z-index: auto;
+}
+.greenContainerL {
+  box-sizing: border-box;
+  color: #1e3932;
+  display: block;
+  float: none;
+  font-size: 18px;
+  line-height: 2px;
+  letter-spacing: -.01em;
+  padding-top: 2px;
+  position: static;
+  text-align: center;
+  z-index: auto;
+}
+/*%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%*/
+.drinkContainerOne{
+  box-sizing: content-box;
+  color: rgba(0, 0, 0, .87);
+  display: block;
+  line-height: 22px;
+  max-width: 1440px;
+  margin-top: 3.2rem !important;
+  margin-bottom: 3.2rem !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+  position: static;
   
-  .arrowContainer {
-    position: absolute;
-    width: 10%;
-    height: 20%;
-    top: 0;
-    bottom: 0;
-    margin: auto;
-    cursor: pointer;
-    z-index: 2;
+}
+
+.drinkContainerInnerOne{
+  box-sizing: border-box;
+  color: rgba(0, 0, 0, .87);
+  display: flex !important;
+  flex-direction: row-reverse;
+  font-size: 1.6rem;
+  line-height: 24px;
+  position: static;
+  padding: 0 var(--space-6);
+}
+.drinkContainerLeftItemOne {
+  background-color: #3d7170;
+  display: flex !important;
+  font-size: 1.6rem;
+  justify-content: center !important;
+  padding-top: 3.2rem !important;
+  padding-bottom: 3.2rem !important;
+  text-align: center !important;
+  max-width: 50%;
+}
+.drinkContainerLeftInner{
+  box-sizing: border-box;
+  display: block;
+  line-height: 24px;
+  max-width: 50%;
+  position: static;
+  text-align: center !important;
+}
+.drinkContainerbutton{
+  display: inline-block;
+  background: none;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 50px;
+  color: #fff;
+  font-weight: 600;
+  font-size: 1rem;
+  line-height: 19.2px;
+  margin-top: 3.2rem !important;
+  min-width: 40px;
+  min-height: 40px;
+  padding: 7px 16px;
+  text-align: center;
+  text-decoration: none;
+  transition: all .2s ease;
+}
+
+.drinkContainerHeader {
+  box-sizing: border-box;
+  color: #ffffff;
+  display: block;
+  font-size: 50px;
+  font-weight: 600 !important;
+  letter-spacing: 2px;
+  line-height: 60px;
+  margin-bottom: 2.4rem !important;
+  position: static;
+ 
+}
+
+.drinkContainerLineOne{
+  box-sizing: border-box;
+  color: #ffffff;
+  display: block;
+  font-size: 22px;
+  line-height: 36px;
+  max-width: calc(1em * (calc(600 / 12)));
+  position: static;
+  text-align: center !important;
   }
-  
-  .wrapper {
-    width: 300vw;
-    height: 100%;
-    display: flex;
-    transition: all 1.5s ease-in-out ;
-  }
-  
-  .imgContainer {
-    width: 100vw;
-    height: 75%;
-    position: relative;
-  }
-  
-  @media screen and (max-width: 480px) {
-    .container{
-      height: 50vh;
-    }
-  }
+
+.drinkContainerRightItemOne{
+  align-items: center !important;
+  box-sizing: inherit;
+  background-color: #3d7170;
+  display:flex !important;
+  justify-content: center !important;
+  line-height: 24px;
+  max-width: 50%;
+}
+ .drinkContainerImgOne{
+  border: 0;
+  box-sizing: inherit;
+  display: flex !important;
+  height: auto ;
+  justify-content: center !important;
+  max-width: 110%;
+  margin-right: 0.001%;
+} 
+/*%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%*/
+
+.drinkContainerTwo {
+  box-sizing: content-box;
+  color: rgba(0, 0, 0, .87);
+  display: block;
+  line-height: 24px;
+  max-width: 1440px;
+  margin-top: 3.2rem !important;
+  margin-bottom: 3.2rem !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+  position: static;
+
+}
+
+.drinkContainerInnerTwo {
+  box-sizing: border-box;
+  color: rgba(0, 0, 0, .87);
+  display: flex !important;
+  flex-direction: row;
+  font-size: 1.6rem;
+  line-height: 24px;
+  max-width: 1440px;
+  position: static;
+  padding: 0 var(--space-6);
+}
+
+.drinkContainerLeftItemTwo {
+  align-items: center !important;
+  box-sizing: inherit;
+  background-color: #d4e9e2;
+  display: flex !important;
+  justify-content: center !important;
+  line-height: 24px;
+  max-width: 50%;
+}
+
+
+.drinkContainerbuttonTwo {
+  display: inline-block;
+  background: none;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 50px;
+  color: #1e3932;
+  font-weight: 600;
+  font-size: 1rem;
+  line-height: 19.2px;
+  margin-top: 3.2rem !important;
+  min-width: 40px;
+  min-height: 40px;
+  padding: 7px 16px;
+  text-align: center;
+  text-decoration: none;
+  transition: all .2s ease;
+}
+
+.drinkContainerHeaderTwo {
+  box-sizing: border-box;
+  color: #1e3932;
+  display: block;
+  font-size: 50px;
+  font-weight: 600 !important;
+  letter-spacing: 2px;
+  line-height: 60px;
+  margin-bottom: 2.4rem !important;
+  position: static;
+
+}
+
+.drinkContainerLineTwo {
+  box-sizing: border-box;
+  color: #1e3932;
+  display: block;
+  font-size: 22px;
+  line-height: 36px;
+  max-width: calc(1em * (calc(600 / 12)));
+  position: static;
+  text-align: center !important;
+}
+
+.drinkContainerRightItemTwo {
+  background-color: #d4e9e2;
+  display: flex !important;
+  font-size: 1.6rem;
+  justify-content: center !important;
+  padding-top: 3.2rem !important;
+  padding-bottom: 3.2rem !important;
+  text-align: center !important;
+  max-width: calc(1em * (calc(600 / 13)));
+}
+.drinkContainerRightInner {
+  box-sizing: border-box;
+  display: block;
+  line-height: 24px;
+  max-width: 50%;
+  position: static;
+  text-align: center !important;
+}
+
+.drinkContainerImgTwo {
+  border: 0;
+  box-sizing: inherit;
+  display: flex !important;
+  height: auto;
+  justify-content: center !important;
+  max-width: 100%;
+  margin-right: 0.001%;
+}
