@@ -20,7 +20,7 @@ function Rewards(props) {
             </div>
           </div>
         </div>
-        <div >
+        <div>
           <div className={classes.rewardsMainSection}>
             <h4 className={classes.rewardsMainSectionTitle}>
               Free Coffee
@@ -42,10 +42,13 @@ function Rewards(props) {
             <div>
               <span className={classes.rewardsMainSectionLineTwo}>
                 Or
-                <a href="https://www.starbucks.com/rewards/mobile-apps/" className={classes.rewardsMainSectionLineTwo}>
+                <a
+                  href="https://www.starbucks.com/rewards/mobile-apps/"
+                  className={classes.rewardsMainSectionLineTwo}
+                >
                   join in the app
                 </a>
-               for the best experience
+                for the best experience
               </span>
             </div>
           </div>
