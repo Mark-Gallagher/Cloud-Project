@@ -1,8 +1,9 @@
 import Link from "next/link";
 import classes from "./MainNavigation.module.css";
-import { Card, Avatar, Button } from "@nextui-org/react";
+import { Card, Avatar, Button, Image } from "@nextui-org/react";
 import { useContext } from "react";
 import DataContext from "../store/data-store.js";
+import PlaceIcon from "@material-ui/icons/Place";
 import Features from "../components/Features";
 
 function MainNavigation(props) {
@@ -12,12 +13,16 @@ function MainNavigation(props) {
     <>
       <Card bordered shadow={false} hoverable css={{ mw: "100%" }}>
         <div className={classes.mainDiv}>
-            <Avatar
-              squared
-              src="/avatars/logo.svg"
-              alt="Starbuck"
-              css={{ size: "$16" }}
-            />
+          <div className={classes.iconDiv}>
+            <Link href="http://localhost:3001/">
+              <Avatar
+                squared
+                src="/avatars/logo.svg"
+                alt="Starbuck"
+                css={{ size: "$50" }}
+              />
+            </Link>
+          </div>
           <div className={classes.linkDiv}>
             <Link href="/Menu">
               <a>
@@ -46,13 +51,10 @@ function MainNavigation(props) {
             </Link>
           </div>
           <div className={classes.linkDivStore}>
-            <Link href="/Store">
+            <Link href="https://www.starbucks.com/store-locator?map=53.272992,-6.449843,6z">
               <Button auto ghost color="success" rounded bordered>
-                <div>
-                  <img src="/images/marker.svg" alt="marker"></img>
-                  <div></div>
-                </div>
-                <div> Find a store</div>
+                <PlaceIcon fontSize="large" />
+                Find a store
               </Button>
             </Link>
           </div>
@@ -65,19 +67,12 @@ function MainNavigation(props) {
           </div>
           <div className={classes.linkDivJoinNow}>
             <Link href="/JoinNow">
-              <Button auto ghost color="success" rounded bordered>
+              <Button auto ghost color="warning" rounded bordered>
                 JoinNow
               </Button>
             </Link>
           </div>
-          <div className={classes.linkDiv}>
-            <Avatar
-              text={noOfItems}
-              size="md"
-              color="white"
-              textColor="black"
-            />
-          </div>
+          <div className={classes.linkDiv}></div>
           <div></div>
         </div>
       </Card>
