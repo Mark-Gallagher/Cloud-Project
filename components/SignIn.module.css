@@ -1,0 +1,417 @@
+.mainHeader {
+    box-sizing: inherit;
+    display: inline-flex;
+    margin: 0 10px;
+}
+.mainDiv {
+    box-sizing: inherit;
+    display: block;
+    margin: 0 10px;
+    position: relative;
+    z-index: 1;
+}
+
+.iconDiv{
+    height: 50px;
+    margin-right: 20px;
+    object-fit: contain;
+    
+}
+
+.signinTitle{
+    box-sizing: content-box;
+    max-width: 500px;
+    margin-right: auto !important;
+    margin-left: auto !important;
+    line-height: 24px;
+    padding: 48px 40px;
+}
+
+.signinTitleInner {
+    font-feature-settings: "calt";
+    color: rgba(0, 0, 0, .87);
+    font-size: 1.4rem;
+    font-weight: 400;
+    letter-spacing: -.01em;
+    line-height: 1.5;
+}
+.signinHeader{
+    box-sizing: inherit;
+    color: rgba(0, 0, 0, .87);
+    font-weight: 700 !important;
+    font-size: 28px;
+    line-height: 38.7833px;
+    margin-bottom: .8rem !important;
+    margin: 0;
+    text-align: center !important;
+
+}
+.signinForm{
+    box-sizing: content-box;
+    font-size: 16px;
+    line-height: 24px;
+    max-width: 500px;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    margin-bottom: 4.8rem !important;
+    padding:0px 24px;
+    transition-delay: 100ms;
+}
+.signinFormOutline{
+    box-sizing: border-box;
+    border-radius: 12px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .07), 0 4px 5px rgba(0, 0, 0, .06), 0 1px 10px rgba(0, 0, 0, .1);
+    line-height: 24px;
+    font-size: 16px;
+    font-weight: 400;
+    max-width: 500px;
+    padding: 32px;
+}
+.signinFormInner {
+    box-sizing: border-box;
+    color: rgba(0, 0, 0, .87);
+    display: block;
+    font-size: 16px;
+    font-feature-settings: "calt";
+    font-family: SoDoSans, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 1.4rem;
+    font-weight: 400;
+    letter-spacing: -.01em;
+    line-height: 24px;
+}
+
+.signinFormBorder{
+    box-sizing: border-box;
+    color: rgba(0, 0, 0, 0.87);
+    line-height: 24px;
+    padding: 32px;
+}
+
+.signinLine{
+    color: rgba(0, 0, 0, .87);
+    cursor: pointer;
+    display: block;
+    font-size: 16px;
+    font-weight: 800;
+    justify-content: end;
+    letter-spacing: -.01em;
+    line-height: 34px;
+    margin: 0px;
+    padding: 0px 2px;
+    position: static;
+    text-align: left;
+}
+.signinSpan{
+    color: #00754a !important;
+}
+
+.formTextFieldOutline{
+    box-sizing: border-box;
+    display: block;
+    margin: 16px -8px 8px;
+    padding: 4px 8px;
+    position: relative;
+    z-index: 0;
+}
+
+.formTextFieldBorder{
+    align-items: center !important;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 0 1px rgba(0, 0, 0, .4);
+    display: block;
+    line-height: 24px;
+    max-width: 400px;
+    padding: 12px 16px;
+    position: relative;
+    transition: border .2s linear .2s;
+}
+.signinFlexOption{
+    align-items: center;
+    box-sizing: border-box;
+    color: rgba(0, 0, 0, 0.87);
+    display: flex;
+    line-height: 24px;
+    margin-bottom: 16px
+}
+.signinOptionCheckbox{
+    box-sizing: border-box;
+    color: rgba(0, 0, 0, 0.87);
+    font-family: SoDoSans, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-feature-settings: "calt";
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: -0.16px;
+    line-height: 24px
+}
+.signinCheckbox{
+    border-image-repeat: stretch;
+    border-image-slice: 100%;
+    clip: rect(1px, 1px, 1px, 1px) !important;
+    border: 0 !important;
+    height: 1px !important;
+    overflow: hidden !important;
+    padding: 0 !important;
+    position: absolute !important;
+    width: 1px !important;
+}
+.signinFlexContainer{
+    box-sizing: border-box;
+    cursor: pointer;
+    display: flex !important;
+    padding: 10px 0;
+    position: relative;
+}
+
+.signinFlexItemOne{
+    box-sizing: border-box;
+    cursor: pointer;
+    flex-shrink: 0;
+    line-height: 24px;
+}
+
+.signinFlexItemTick{
+    border: 1.5px solid #00754a;
+    border-color: #00754a;
+    border-radius: 25%;
+    color: transparent;
+    cursor: pointer;
+    display: block;
+    height: 24px;
+    margin: auto;
+    overflow: visible;
+    width: 24px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.signinFlexItemIcon{
+    border-color: #00754a;
+    cursor: pointer;
+    display: block;
+    fill: currentcolor;
+    height: 24px;
+    margin: auto;
+    overflow: visible;
+    width: 24px;
+}
+
+.signinFlexItemTwo{
+    cursor: pointer;
+    font-weight: 400;
+    letter-spacing: -0.16px;
+    line-height: 24px;
+    min-width: 0;
+    padding-left: 10px;
+    padding-top: 2px;
+}
+
+.signinFlexItemThree{
+    box-sizing: border-box;
+    color: rgba(0, 0, 0, 0.87);
+    display: flex;
+    position: relative !important;
+}
+
+.signinFlexButton{
+    background: transparent;
+    border: 0;
+    border-radius: 0; 
+    color: rgb(0, 98, 65);
+    cursor: pointer;
+    font-weight: 700 !important;
+    font-size: 19.2px;
+    min-width: 24px;
+    min-height: 24px;
+    margin-right: 0px;
+    padding: 0px;
+    text-align: inherit;
+    text-decoration: underline;
+}
+
+.signinResetlinks{
+    box-sizing: inherit;
+    display: inline-block;
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 8px;
+    position: relative;
+}
+
+.signinLink{
+    background: transparent;
+    border: 0;
+    border-radius: 0;
+    color: #006241 !important;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 700 !important;
+    min-width: 24px;
+    min-height: 24px;
+    padding: 0;
+    padding-right: 0px;
+    padding-left: 0px;
+    padding-left: 0 !important;
+    text-align: inherit;
+    text-decoration: underline;
+    text-decoration-color: rgb(0, 98, 65);
+ }
+ .signinLinkTwo{
+    background-color: rgba(0, 0, 0, 0);
+    box-sizing: border-box;
+    color: #006241 !important;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 700 !important;
+    min-width: 24px;
+    min-height: 24px;
+    padding: 0;
+    padding-right: 0px;
+    padding-left: 0px;
+    padding-left: 0 !important;
+    text-align: inherit;
+    text-decoration: underline;
+    text-decoration-color: rgb(0, 98, 65);
+ 
+ }
+
+ .signinButtonSpacing{
+    line-height: 24px;
+    padding: 32px 0px 8px;
+    position: relative !important;
+ }
+
+ .signinOutline{
+    box-sizing: border-box;
+    display: block; 
+    float: none;
+    line-height: 24px;
+    position: static;
+    visibility: hidden !important;
+    z-index: auto;
+ }
+
+ .signinFlex{
+    align-items: flex-end;
+    box-sizing: border-box;
+    color: rgba(0, 0, 0, 0.87);
+    display: flex;
+    flex-direction: column;
+    line-height: 24px;
+ }
+ 
+ .signinButtonBorder{
+    box-sizing: inherit;
+    transition-delay: 100ms;
+    visibility: visible !important;
+ }
+
+ .signinButton{
+    background: #00754a;
+    border-radius: 500px;
+    box-shadow: 0 0 6px rgba(0, 0, 0, .24), 0 8px 12px rgba(0, 0, 0, .14);
+    cursor: pointer;
+    color: #fff;
+    display: inline-flex;
+    font-size: 19px;
+    font-weight: 600;
+    line-height: 1.2;
+    overflow: hidden;
+    padding: 18px 24px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    transition-duration: .2s;
+    transition-property: transform, box-shadow, width, height;
+    transition-timing-function: ease;
+    z-index: 1;
+ }
+
+ .signinRewardsOutline{
+    background-color: #e6eeea;
+    display: block;
+    line-height: 10px;
+    max-width: 500px;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    padding-bottom: 0px 24px 0px;
+    text-align: center;
+ }
+ 
+ .signinRewardsContent{
+    background: rgba(212, 233, 226, .33);
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    overflow: hidden;
+ }
+.signinRewards {
+    box-sizing: border-box;
+    color: rgba(0, 0, 0, 0.87);
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: -0.16px;
+    line-height: 24px;
+    text-align: center;
+}
+ .signinRewardsHeading {
+    color: #00754a !important;
+    font-size: 18px;
+    font-weight: 800;
+    letter-spacing: 1.4px;
+    margin-bottom: 8px;
+    padding: 10px 0px;
+    text-align: center !important;
+    
+ }
+ .signinRewardsLine {
+    box-sizing: border-box;
+    color: rgba(0, 0, 0, 0.87);
+    display: inline-block;
+    font-family: SoDoSans, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: -0.16px;
+    line-height: 24px;
+    margin-bottom: 0px;
+    padding: 0px 42px;
+    text-align: center;
+ }
+
+.signinJoinNowButton {
+    border-style: solid;
+    border-radius: 50px;
+    border-color: #00754a;
+    color: #00754a;
+    cursor: pointer;
+    display: inline-block;
+    margin: 0px;
+    min-width: 25px;
+    min-height: 25px;
+    padding: 5px 15px;
+    position: relative;
+    font-weight: 600;
+    font-size: 18px;
+    justify-content:center;
+    line-height: 24px;
+    text-align: center;
+    text-decoration: none;
+    transition: all .2s ease;
+ }
+
+.signinJoinNowSpacing{
+    cursor: pointer;
+    margin: 0px;
+    padding: 10px 16px;
+    font-weight: 600;
+    line-height: 19px;
+    text-align: center;
+    text-decoration: none;
+    transition: all .2s ease;
+}
+
+.signinBottomSpacing {
+    padding-bottom: 0px 30px;
+}
