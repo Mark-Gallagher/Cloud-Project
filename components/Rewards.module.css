@@ -20,13 +20,13 @@
     z-index: auto;
 }
 .rewardsMainSection{
-    display: block;
     box-sizing: border-box;
     background-color: rgb(212, 233, 226);
-    background-position-x: 50%;
-    background-position-y: 50%;
+    background-position-x: 60%;
+    background-position-y: 60%;
     background-size: auto 100%;
     background-image: url("https: //www.starbucks.com/weblx/images/rewards/hero/xl-hero-desktop_2021.png");
+    display: block;
     float: none;
     line-height: 24px; 
     position: sticky; 
@@ -38,12 +38,12 @@
     text-align: left;
     display: block;
     font-family: 'Courier New', Courier, monospace;
-    font-size: 2rem;
+    font-size: 36px;
     float: none;
     line-height: 50px;
-    margin: 0 170px;
-    padding-top: 8.2rem;
-    padding-bottom: 6.2rem;
+    margin: 0px 170px;
+    padding-top: 7rem;
+    padding-bottom: 1rem;
     position: static;
     z-index: auto;
 }
@@ -54,25 +54,21 @@
     text-align: left;
     display: inline;
     font-family: 'Courier New', Courier, monospace;
-    font-size: 1.2rem; 
+    font-size: 19px;
+    font-weight: 500;
     float: none;
-    line-height: 10px;
-    margin:0 170px;
-    padding-top: 1rem;
+    line-height: 28px;
+    margin: 0px 170px;
+    padding-top: 16px;
     position: static;
+    text-align: left;
     z-index: auto;
 }
 .rewardsJoinNow{
-    background-color: #00754a;
-    background: none;
     box-sizing: border-box;
-    color: rgb(9, 178, 18);
     cursor: pointer;
     display: inline-block;
-    font-weight: 600;
-    float: none;
-    line-height: 8.5px;
-    margin: 0 170px;
+    line-height: 24px;
     min-width: 35px;
     min-height: 35px;
     padding-top: 1.2rem;
@@ -80,18 +76,1725 @@
     text-decoration: none;
     transition: all .2s ease;
 }
+
+.rewardsJoinNow>button {
+    border-radius: 100px;
+    background: #00754a;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 16px;
+    float: none;
+    line-height: 8.5px;
+    margin: 0px 170px;
+    min-width: 35px;
+    min-height: 35px;
+    position: relative;
+    padding: 12px 16px; 
+    text-align: center;
+    text-decoration: none;
+    transition: all .2s ease;
+}
+
 .rewardsMainSectionLineTwo{
     box-sizing: border-box;
     color: rgba(0, 0, 0, .87);
-    text-align: left;
-    display: inline;
+    display: block;
     font-family: 'Courier New', Courier, monospace;
-    font-size: 1.2rem;
+    font-size: 19px;
+    float: none;
+    line-height: 1.5;
+    margin: 5px 0px;
+    position: static;
+    text-align: left;
+    z-index: auto;
+}
+
+.rewardsMainSectionLineTwo>span {
+    box-sizing: border-box;
+    color: rgba(0, 0, 0, .87);
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 19px;
     float: none;
     line-height: 100px;
-    margin: 40px 170px;
-    padding-top: 1.2rem;
+    margin: 5px 170px 0px;
+    padding-bottom: 50px;
+    position: static;
+    text-align: left;
+    z-index: auto;
+}
+
+.rewardsLineTwoLink{
+    background-color: transparent;
+    color: #000;
+    text-align: inherit;
+    text-decoration: underline;
+    text-decoration-color: #000;
+    font-size: 19px;
+    margin: 5px 10px 0px;
+
+}
+
+/*%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%*/
+
+.rewardsMiddleSection{
+    box-sizing: border-box; 
+    display: flex; 
+    flex-direction: row;
+    float: none; 
+    line-height: 24px;
+    margin: 0px 60.65px;
+    max-width: 1880px;
+    padding-top: 48px ;
+    position: static;
+}
+
+.rewardsMiddleSectionPadding{
+    display: flex;
+    line-height: 24px;
+    margin-bottom: 128px;
+    max-width: 0px;
+    padding: 0px;
+}
+
+.rewardsMiddleSectionContainer{
+    box-sizing: border-box;
+    display: block;
+    width: 1880px;
+}
+
+/*%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%*/
+
+.rewardsMiddleSectionContainerOne{
+    display: flex;
+    flex-direction: column;
+    font-size: 16px;
+    line-height: 24px;
+    margin: 0px 720px;
+    padding: 100px 0px 20px;
+    text-align: center !important;
+    width: 332.83px;
+}
+
+.rewardsMiddleSectionTitle{
+    color: #000;
+    font-family: SoDoSans, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-weight: 600 !important;
+    font-size: 28px;
+    letter-spacing: -0.16px;
+}
+
+.rewardsMiddleSectionLineOne{
+    line-height: 24px;
+    font-family: SoDoSans, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    margin: 0;
+    padding-top: 18px;
+    text-align: center !important;
+}
+
+/*%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%*/
+.rewardsMiddleSectionContainerTwo {
+    display: flex;
+    flex-direction: column;
+    font-size: 16px;
+    line-height: 24px;
+    margin: 0px 24px 0px;
+    padding-top: 48px;
+    text-align: center !important;
+    width: 33.33333%;
+}
+
+.rewardsFlexImageOne{
+    margin: 0px 115px;
+    max-width: 128px;
+    padding-bottom: 24px;
+    text-align: center !important;
+}
+
+
+.rewardsFlexImageOne>img {
+    font-size: 16px;
+    height: auto;
+    max-width: 40%;
+    padding-bottom: 24px;
+    text-align: center !important;
+}
+
+
+.rewardsFlexContentOne{
+    display: block;
+    min-width: calc(100% - 128px);
+    text-align: center !important;
+    position: static;
+}
+
+.rewardsFlexContentOne>h3 {
+    display: block;
+    font-size: 24px;
+    margin-bottom: 10px;
+    min-width: calc(100% - 128px);
+    text-align: center !important;
+}
+
+.rewardsFlexContentOne>span {
+    display: block;
+    font-size: 16px;
+    font-weight: 600;
+    margin: 0px;
+    padding-top: 16px;
+    position: static;
+    text-align: center !important;
+}
+
+.rewardsFlexContentOne>a {
+    color: #00a862 !important;
+    display: inline;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    margin: 0px 2px;
+    text-align: center !important;
+    text-decoration: underline;
+}
+
+
+/*%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%*/
+.rewardsMiddleSectionContainerThree {
+    display: flex;
+    flex-direction: column;
+    font-size: 16px;
+    line-height: 24px;
+    margin: 0px 24px 0px;
+    padding-top: 48px;
+    text-align: center !important;
+    width: 33.33333%;
+}
+
+
+.rewardsFlexImageTwo {
+    margin: 0px 115px;
+    max-width: 128px;
+    padding-bottom: 24px;
+    text-align: center !important;
+}
+
+.rewardsFlexImageTwo>img {
+    font-size: 16px;
+    height: auto;
+    max-width: 40%;
+    padding-bottom: 24px;
+    text-align: center !important;
+}
+
+.rewardsFlexContentTwo {
+    display: block;
+    min-width: calc(100% - 128px);
+    text-align: center !important;
+    position: static;
+}
+
+.rewardsFlexContentTwo>h3 {
+    display: block;
+    font-size: 24px;
+    font-weight: 600 !important;
+    margin-bottom: 10px;
+    min-width: calc(100% - 128px);
+    text-align: center !important;
+}
+
+.rewardsFlexContentTwo>span {
+    display: block;
+    font-size: 16px;
+    font-weight: 600;
+    margin: 0px;
+    padding-top: 16px;
+    position: static;
+    text-align: center !important;
+}
+
+.rewardsFlexContentTwo>a {
+    color: #00a862 !important;
+    display: inline;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    margin: 0px 2px;
+    text-align: center !important;
+    text-decoration: underline;
+}
+
+
+/*%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%*/
+.rewardsMiddleSectionContainerFour {
+    display: flex;
+    flex-direction: column;
+    font-size: 16px;
+    line-height: 24px;
+    margin: 0px 24px 0px;
+    padding-top: 48px;
+    text-align: center !important;
+    width: 33.33333%;
+}
+
+
+.rewardsFlexImageThree {
+    margin: 0px 115px;
+    max-width: 128px;
+    padding-bottom: 24px;
+    text-align: center !important;
+}
+
+.rewardsFlexImageThree>img {
+    font-size: 16px;
+    height: auto;
+    max-width: 40%;
+    padding-bottom: 24px;
+    text-align: center !important;
+}
+
+.rewardsFlexContentThree {
+    display: block;
+    min-width: calc(100% - 128px);
+    text-align: center !important;
+    position: static;
+}
+
+.rewardsFlexContentThree>h3 {
+    display: block;
+    font-size: 24px;
+    font-weight: 600 !important;
+    margin-bottom: 10px;
+    min-width: calc(100% - 128px);
+    text-align: center !important;
+}
+
+.rewardsFlexContentThree>span {
+    display: block;
+    font-size: 16px;
+    font-weight: 600;
+    margin: 0px;
+    padding-top: 16px;
+    position: static;
+    text-align: center !important;
+}
+
+.rewardsFlexContentThree>a {
+    color: #00a862 !important;
+    display: inline;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    margin: 0px 2px;
+    text-align: center !important;
+    text-decoration: underline;
+}
+
+/*%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%*/
+.rewardsMiddleSectionTwo{
+    box-sizing: border-box; 
+    background-color: rgba(212, 233, 226, .33) !important;
+    display: block;
+    margin-top: 110px;
+    margin-bottom: 128px;
+    padding-top: 40px;
     position: static;
     z-index: auto;
     
+}
+
+.rewardsMiddleSectionTwoInner {
+    box-sizing: border-box;
+    display: block;
+    margin-bottom: 0px;
+    position: static; 
+    z-index: auto;
+}
+
+.rewardsMiddleSectionTwoContainerOne {
+    box-sizing: border-box;
+    display: inline;
+    line-height: 38.7833px;
+    margin: 0% 18%;
+    padding: 20px 16px 0px;
+    position: static;
+    z-index: auto;
+
+}
+
+.rewardsMiddleSectionTwoContainerOne>h2 {
+    box-sizing: border-box;
+    color: #000;
+    font-family: SoDoSans, Helvetica Neue, Helvetica, Arial, sans-serif;   
+    font-size: 28px;
+    font-weight: 600 !important;
+    margin: 0% 20%;
+    padding: 20px 16px 0px;
+    position: static;
+    text-align: center !important;
+    z-index: auto;
+}
+
+/*%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%*/
+.rewardsMiddleSectionTwoContainerTwo {
+    box-sizing: border-box;
+    display: inline-block;
+    line-height: 38.7833px;
+    margin: 0px 10px;
+    padding: 0px;
+    position: static;
+    text-align: center !important;
+    z-index: auto;
+
+}
+.rewardsContainerTwoPadding {
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around !important;
+    line-height: 38.7833px;
+    margin: 10px 640px;
+    max-width: 540px;
+    position: relative;
+    z-index: auto;
+}
+
+.rewardsMiddleSectionTwoContainerTwo>a{
+    box-sizing: border-box;
+    background: transparent;
+    border: 0;
+    border-radius: 0px;
+    cursor: pointer;
+    display: block;
+    line-height: 12px;
+    margin: 0px;
+    max-width: 540px;
+    padding: 8px 8px 32px;
+    position: relative;
+    text-align: center !important;
+    width: 100%;
+    z-index: auto;
+
+}
+
+.rewardsMiddleSectionTwoContainerTwo>span{
+    font-family: inherit;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 600;
+    justify-content: space-around !important;
+    letter-spacing: normal;
+    line-height: 36px;
+    text-align: center;
+}
+
+ .rewardsContainerTwoSymbol{
+    color: #cba258 !important;
+    width: 2px;
+    height: 2px;
+ }
+
+ .rewardsContainerTwoSpacing{
+    clip: rect(1px, 1px, 1px, 1px) !important;
+    border: 0 !important;
+    height: 1px !important;
+    margin-bottom: 20px;;
+    overflow: hidden !important;
+    padding: 0 !important;
+    position: absolute !important;
+    width: 1px !important;
+ }
+
+ .rewardsContainerTwoSlider{
+    background-attachment: scroll;
+    background-clip: border-box;
+    background: #00754a;
+    bottom: 0; 
+    display: block;
+    font-size: 16px;
+    height: 4px;
+    left: 0;
+    position: absolute;
+    width: 108px;
+ }
+
+/**%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%**/
+
+ .rewardsContainerThree{
+    display: block;
+    margin: 0px;
+    position: relative !important;
+    max-width: 1980px;
+ }
+
+ .rewardsContainerThreeInnerSection {
+    align-items: right;
+    box-sizing: border-box;
+    background-color: #d4e9e2 !important;
+    display: flex;
+    justify-content: centre !important;
+    margin: 0% -8%;
+    opacity: 1;
+    position: relative !important;
+    padding: 0px;
+    transition: .3s ease-out;
+    transition-property: opacity, visibility;
+    visibility: visible;
+    height: 100%
+
+ }
+
+ .rewardsContainerThreeInner{
+     align-items: center !important;
+     background-color: #d4e9e2 !important;
+     box-sizing: inherit;
+     display: block;
+     justify-content: center !important;
+     max-width: 1980px;
+     visibility: visible;
+ }
+
+ .sectionOneFlexContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    letter-spacing: -0.16px;
+    line-height: 24px;
+    padding-bottom: 32px;
+    padding-top: 32px;
+    text-align: center;
+    visibility: visible
+ }
+
+ .innerSectionOnePadding {
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around !important;
+    line-height: 38.7833px;
+    margin: 40px 782px;
+    max-width: 540px;
+    position: relative;
+    z-index: auto;
+ }
+
+ .innerSectionOne{
+    display: flex;
+    line-height: 24px;
+    margin-right: 48px;
+    position: relative;
+    width: 400px;
+    height: auto;
+ }
+ 
+.innerSectionOne>img {
+    display: inline;
+    font-size: 16px;
+    line-height: 24px;
+    position: relative;
+
+}
+
+ .innerSectionOneShadow {
+    display: inline;
+    line-height: 24px;
+    position: relative;
+    padding-bottom: 56.25%;
+    width: 375px
+ }
+
+/*%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%*/
+
+ .innerSectionTwo{
+    display: block;
+    flex-grow: 1 !important;
+    width: 375px;
+    margin-left: 2px;
+    padding: 0px 10px;
+    position: relative;
+ }
+ .innerSectionTwo>h3 {
+    display: block;
+    font-family: SoDoSans, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-feature-settings: "calt";
+    font-size: 24px;
+    font-weight: 600;
+    padding-top: 40px;
+    position: relative;
+    text-align: Left !important;
+ }
+
+.innerSectionTwo>span{
+    display: block;
+    font-family: SoDoSans, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-feature-settings: "calt";
+    font-size: 16px;
+    font-weight: 400;
+    padding-bottom: 40px;
+    position: relative;
+    text-align: Left !important;
+}
+
+/*%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%*/
+.rewardsMiddleSectionThree{
+    display: block;
+    margin-top: 110px;
+    margin-bottom: 128px;
+    padding-top: 30px;
+    position: static;
+    z-index: auto;
+
+}
+.rewardsMiddleSectionThreeInner{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row; 
+    margin-bottom: 128px;
+    max-width: 1440px;
+    padding: 10px 40px ;
+    position: static;
+    z-index: auto;
+} 
+
+.rewardsContainerThreePadding {
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around !important;
+    line-height: 38.7833px;
+    margin: 40px 782px;
+    max-width: 540px;
+    position: relative;
+    z-index: auto;
+}
+.rewardsMiddleSectionThreeContainerOne {
+    display: flex;
+    flex-direction: column;
+    font-size: 16px;
+    line-height: 24px;
+    margin: 0px 590px;
+    text-align: center !important;
+    width: 558px;
+
+}
+.rewardsMiddleSectionThreeContainerOne>h2 {
+    box-sizing: border-box;
+    color: #000;
+    font-family: SoDoSans, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 28px;
+    font-weight: 600 !important;
+    margin: 0%;
+    position: static;
+    text-align: center !important;
+    z-index: auto;
+}
+.rewardsMiddleSectionThreeLineOne {
+    display: block;
+    line-height: 24px;
+    font-family: SoDoSans, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    margin: 0;
+    padding-top: 16px ;
+    text-align: center !important;
+}
+
+/*%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%*/
+.rewardsMiddleSectionThreeContainerTwo{
+    display: flex;
+    flex-direction: column;
+    font-size: 16px;
+    line-height: 24px;
+    margin: 0px 52px 0px;
+    padding-top: 48px;
+    text-align: center !important;
+}
+
+.rewardsFlexTwoImageOne>img {
+    font-size: 16px;
+    height: auto;
+    max-width: 128px;
+    padding-bottom: 24px;
+    margin: 0px 160px 0px;
+    text-align: center !important;
+}
+
+
+.rewardsFlexTwoContentOne {
+    display: block;
+    min-width: calc(100% - 128px);
+    text-align: center !important;
+    position: static;
+}
+
+.rewardsFlexTwoContentOne>h3 {
+    display: block;
+    font-size: 24px;
+    margin-bottom: 10px;
+    min-width: calc(100% - 128px);
+    text-align: center !important;
+}
+
+.rewardsFlexTwoContentOne>span {
+    display: block;
+    font-size: 16px;
+    font-weight: 600;
+    margin: 0px;
+    padding-top: 16px;
+    position: static;
+    text-align: center !important;
+}
+
+.rewardsFlexTwoContentOne>button {
+    background: transparent;
+    border: 0;
+    border-radius: 0;
+    color: #006241 !important;
+    display: inline;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    margin: 0px 2px;
+    text-align: center !important;
+    text-decoration: underline;
+}
+
+.contentOneHiddenCarousel{
+    clip: rect(1px, 1px, 1px, 1px) !important;
+    border: 0 !important;
+    height: 1px !important;
+    overflow: hidden !important;
+    padding: 0 !important;
+    position: absolute !important;
+    width: 1px !important;
+}
+
+/*%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%*/
+.rewardsMiddleSectionThreeContainerThree {
+    display: flex;
+    flex-direction: column;
+    font-size: 16px;
+    line-height: 24px;
+    margin: 0px 52px 0px;
+    padding-top: 48px;
+    text-align: center !important;
+}
+
+
+.rewardsFlexTwoImageTwo>img {
+    font-size: 16px;
+    height: auto;
+    max-width: 128px;
+    margin: 0px 160px 0px;
+    padding-bottom: 24px;
+    text-align: center !important;
+}
+
+
+.rewardsFlexTwoContentTwo {
+    display: block;
+    min-width: calc(100% - 128px);
+    text-align: center !important;
+    position: static;
+}
+
+.rewardsFlexTwoContentTwo>h3 {
+    display: block;
+    font-size: 24px;
+    margin-bottom: 10px;
+    min-width: calc(100% - 128px);
+    text-align: center !important;
+}
+
+.rewardsFlexTwoContentTwo>span {
+    display: block;
+    font-size: 16px;
+    font-weight: 600;
+    margin: 0px;
+    padding-top: 16px;
+    position: static;
+    text-align: center !important;
+}
+
+.rewardsFlexTwoContentTwo>a {
+    color: #006241 !important;
+    display: inline;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    margin: 0px 2px;
+    text-align: center !important;
+    text-decoration: underline;
+}
+
+.contentTwoHiddenCarousel {
+    clip: rect(1px, 1px, 1px, 1px) !important;
+    border: 0 !important;
+    height: 1px !important;
+    overflow: hidden !important;
+    padding: 0 !important;
+    position: absolute !important;
+    width: 1px !important;
+}
+
+/*%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%*/
+.rewardsMiddleSectionThreeContainerFour {
+    display: flex;
+    flex-direction: column;
+    font-size: 16px;
+    line-height: 24px;
+    margin: 0px 52px 0px;
+    padding-top: 48px;
+    text-align: center !important;
+}
+
+.rewardsFlexTwoImageThree>img {
+    font-size: 16px;
+    height: 112px;
+    max-width: 50%;
+    margin: 0px 115px 0px; 
+    padding-bottom: 24px;
+    text-align: center !important;
+}
+
+
+.rewardsFlexTwoContentThree {
+    display: block;
+    min-width: calc(100% - 128px);
+    text-align: center !important;
+    position: static;
+}
+
+.rewardsFlexTwoContentThree>h3 {
+    display: block;
+    font-size: 24px;
+    margin-bottom: 10px;
+    min-width: calc(100% - 128px);
+    text-align: center !important;
+}
+
+.rewardsFlexTwoContentThree>span {
+    display: block;
+    font-size: 16px;
+    font-weight: 600;
+    margin: 0px;
+    padding-top: 16px;
+    position: static;
+    text-align: center !important;
+}
+
+.rewardsFlexTwoContentThree>a {
+    color: #006241 !important;
+    display: inline;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    margin: 0px 2px;
+    text-align: center !important;
+    text-decoration: underline;
+}
+
+.contentThreeHiddenCarousel {
+    clip: rect(1px, 1px, 1px, 1px) !important;
+    border: 0 !important;
+    height: 1px !important;
+    overflow: hidden !important;
+    padding: 0 !important;
+    position: absolute !important;
+    width: 1px !important;
+}
+/*%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%*/
+.rewardsMiddleSectionFour{
+    box-sizing: border-box; 
+    display: block;
+    line-height: 24px;
+    margin-bottom: 128px;
+}
+
+.rewardsMiddleSectionFourContainerOne{
+    background-color: #f2f0eb !important;
+    box-sizing: border-box;
+    display: block;
+    line-height: 24px;
+    margin-bottom: 128px;
+}
+
+.rewardsMiddleSectionFourDimensions{
+    max-width: 1440px;
+    margin: auto;
+    padding: 48px 40px;
+    
+}
+
+.rewardsMiddleSectionFourInner {
+    box-sizing: border-box;
+    display: block;
+    line-height: 24px;
+}
+
+.rewardsContainerFourSectionOne{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    line-height: 24px;
+    margin: 0px 186px;
+    margin-bottom: 12px;
+    text-align: center;
+    padding-bottom: 64px;
+    width: 558px;
+}
+.rewardsContainerFourSectionOne>h2{
+    display: block;
+    box-sizing: border-box;
+    color: #000;
+    font-family: SoDoSans, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 28px;
+    font-weight: 600;
+    padding-bottom: 16px;
+}
+
+.rewardsContainerFourSectionOne>span{
+    display: block;
+    line-height: 24px;
+    font-family: SoDoSans, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    position: static;
+    text-align: center !important;
+
+}
+
+/*%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%*/
+
+.rewardsContainerFourSectionTwo{
+    display: block;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+}
+
+.rewardsgridItemOne{
+    display: inline-block;
+    margin-top: 5px;
+    padding: 0;
+    position: relative;
+    text-align: left;
+    vertical-align: top;
+    width: 186px;
+}
+
+.rewardsgridItemOne>h4 {
+    color: rgba(0, 0, 0, 0.87);
+    font-family: SoDoSans,Helvetica Neue,Helvetica, Arial,sans-serif;
+    font-size: 24px;
+    font-weight: 600 !important;
+}
+
+.rewardsgridItemOne>span {
+    color: rgba(0, 0, 0, 0.87);
+    font-family: SoDoSans, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 18px;
+    font-weight: 400 !important;
+}
+
+/*%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%*/
+
+.rewardsgridItemTwo {
+    display: inline-block;
+    line-height: 24px;
+    margin: 0;
+    padding-bottom: 10px;
+    position: relative;
+    text-align: left;
+    vertical-align: top;
+    width: 465px;
+}
+
+.rewardsgridItemTwoInner {
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    padding: 0px 24px;
+    position: relative;
+    text-align: left;
+}
+ 
+.rewardsFlexItemOne {
+    display: inline-block;
+    margin: 0;
+    padding-right: 10px;
+    position: relative;
+    text-align: left;
+    vertical-align: top;
+    max-width: 128px;
+}
+.rewardsFlexItemOne>img{
+    width: 128px;
+    height: 158px;
+    border: 0;
+    font-size: 16px;
+    opacity: 1;
+    text-align: center !important;
+    transition: opacity .3s ease-in;
+}
+
+.rewardsFlexItemTwo{
+    box-sizing: border-box; 
+    display: block;
+    line-height: 24px;
+    min-width: calc(50% - 32px);
+    font-size: medium;
+    margin-top: 2px;
+    text-align: left !important;
+}
+
+.rewardsFlexItemTwo>h3{
+    color: rgba(0, 0, 0, 0.87);
+    font-weight: 600 !important;
+    font-size: 19px
+}
+
+.rewardsFlexImageTwo>span{
+    display: inline-block;
+    color: rgba(0, 0, 0, 0.87);
+    font-family: SoDoSans, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 12px;
+    font-weight: 400 !important;
+    padding-top: 16px;
+    text-align: left;
+}
+
+/*%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%*/
+
+.rewardsgridItemThree {
+    display: inline-block;
+    line-height: 24px;
+    margin: 0;
+    padding-bottom: 10px;
+    position: relative;
+    text-align: left;
+    vertical-align: top;
+    width: 465px;
+}
+
+.rewardsgridItemThreeInner {
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    padding: 0px 24px;
+    position: relative;
+    text-align: left;
+}
+
+.rewardsFlexItemThree {
+    display: inline-block;
+    margin: 0;
+    padding-right: 10px;
+    position: relative;
+    text-align: left;
+    vertical-align: top;
+    max-width: 128px;
+}
+
+.rewardsFlexItemThree>img {
+    width: 128px;
+    height: 158px;
+    border: 0;
+    font-size: 16px;
+    opacity: 1;
+    text-align: center !important;
+    transition: opacity .3s ease-Three
+}
+
+.rewardsFlexItemFour {
+    box-sizing: border-box;
+    display: block;
+    line-height: 24px;
+    min-width: calc(50% - 32px);
+    font-size: medium;
+    margin-top: 2px;
+    text-align: left !important;
+}
+
+.rewardsFlexItemFour>h3 {
+    color: rgba(0, 0, 0, 0.87);
+    font-weight: 600 !important;
+    font-size: 19px
+}
+
+.rewardsFlexImageFour>span {
+    display: inline-block;
+    color: rgba(0, 0, 0, 0.87);
+    font-family: SoDoSans, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 12px;
+    font-weight: 400 !important;
+    padding-top: 16px;
+    text-align: left;
+}
+
+.rewardsMiddleSectionFourDivider{
+    border: 0;
+    color: rgb(12, 3, 3);
+    margin: 0;
+    padding: 24px 0px 48;
+}
+
+/*%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%*/
+
+
+.rewardsContainerFourSectionThree{
+    display: block;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+}
+
+.rewardsgridItemFour {
+    display: inline-block;
+    margin-top: 46px;
+    padding: 0;
+    position: relative;
+    text-align: left;
+    vertical-align: top;
+    width: 186px;
+}
+
+.rewardsgridItemFour>h4 {
+    color: rgba(0, 0, 0, 0.87);
+    font-family: SoDoSans, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 24px;
+    font-weight: 600 !important;
+}
+
+.rewardsgridItemFour>span {
+    color: rgba(0, 0, 0, 0.87);
+    font-family: SoDoSans, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 18px;
+    font-weight: 400 !important;
+}
+
+/*%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%*/
+
+.rewardsgridItemFiveInner {
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    padding: 80px 24px;
+    position: relative;
+    text-align: left;
+}
+.rewardsgridItemFive {
+    display: inline-block;
+    line-height: 24px;
+    margin: 0;
+    padding-bottom: 10px;
+    position: relative;
+    text-align: left;
+    vertical-align: top;
+    width: 465px;
+}
+
+.rewardsFlexItemFive {
+    display: inline-block;
+    margin: 0;
+    padding-right: 10px;
+    position: relative;
+    text-align: left;
+    vertical-align: top;
+    max-width: 128px;
+}
+
+.rewardsFlexItemFive>img {
+    width: 128px;
+    height: 158px;
+    border: 0;
+    font-size: 16px;
+    opacity: 1;
+    text-align: center !important;
+    transition: opacity .3s ease-in;
+}
+
+/*%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%*/
+
+.rewardsFlexItemSix {
+    box-sizing: border-box;
+    display: inline-block;
+    line-height: 24px;
+    min-width: calc(100% -128px);
+    font-size: medium;
+    margin-top: 2px;
+    text-align: left !important;
+}
+
+.rewardsFlexItemSix>h3 {
+    color: rgba(0, 0, 0, 0.87);
+    font-weight: 600 !important;
+    font-size: 19px
+}
+
+.rewardsFlexItemSix>span {
+    display: block;
+    color: rgba(0, 0, 0, 0.87);
+    font-family: SoDoSans, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 400 !important;
+    padding-top: 16px;
+    text-align: left;
+}
+
+/*%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%*/
+
+.rewardsgridItemSix {
+    display: inline-block;
+    line-height: 24px;
+    margin: 0;
+    padding-bottom: 10px;
+    position: relative;
+    text-align: left;
+    vertical-align: top;
+    width: 465px;
+}
+
+.rewardsgridItemSixInner {
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    padding: 80px 24px;
+    position: relative;
+    text-align: left;
+}
+
+.rewardsFlexItemSeven {
+    display: inline-block;
+    margin: 0;
+    padding-right: 10px;
+    position: relative;
+    text-align: left;
+    vertical-align: top;
+    max-width: 128px;
+}
+
+.rewardsFlexItemSeven>img {
+    width: 128px;
+    height: 158px;
+    border: 0;
+    font-size: 16px;
+    opacity: 1;
+    text-align: center !important;
+    transition: opacity .3s ease-Three
+}
+
+.rewardsFlexItemEight {
+    box-sizing: border-box;
+    display: block;
+    line-height: 24px;
+    min-width: calc(50% - 32px);
+    font-size: medium;
+    margin-top: 2px;
+    text-align: left !important;
+}
+
+.rewardsFlexItemEight>h3 {
+    color: rgba(0, 0, 0, 0.87);
+    font-weight: 600 !important;
+    font-size: 19px
+}
+
+.rewardsFlexItemEight>span {
+    display: inline-block;
+    color: rgba(0, 0, 0, 0.87);
+    font-family: SoDoSans, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 400 !important;
+    padding-top: 16px;
+    text-align: left;
+}
+
+
+/*%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%*/
+
+.rewardsBottomSectionOne{
+    box-sizing: border-box;
+    display: block;
+    line-height: 24px;
+    margin-bottom: 128px;   
+    position: static;
+}
+
+.rewardsBottomSectionOneContainerOne{
+    box-sizing: border-box;
+    display: block;
+    line-height: 24px;
+    max-width: 1440px;
+    margin: auto !important;
+    padding: 0px 40px;
+    position: static;
+}
+
+.rewardsContainerOneDimensions{
+    box-sizing: border-box;
+    display: block;
+    line-height: 24px;
+    max-width: 1440px;
+}
+
+.rewardsContainerOneInnerSpacing{
+    line-height: 24px;
+    margin-left: 185.667px;
+    width: 557px
+}
+
+.rewardsContainerOneInner{
+    box-sizing: border-box;
+    display: block;
+    line-height: 24px;
+    position: static;
+}
+
+.rewardsContainerOneInner>h2{
+    font-size: 28px;
+    font-weight: 600;
+    font-family: SoDoSans, Helvetica Neue, Helvetica, Arial, sans-serif;
+    line-height: 38.7833px;
+    margin: 0px;
+    padding-bottom: 16px;
+}
+
+.rewardsContainerOneInnerLineOne {
+    display: block;
+    font-family: SoDoSans, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-right: 4px;
+    position: static;
+    text-align: left !important;
+}
+
+.rewardsformTextFieldOutline {
+    box-sizing: border-box;
+    display: block;
+    margin: 16px -8px 8px;
+    padding: 4px 8px;
+    position: relative;
+    z-index: 0;
+}
+
+.rewardsButtonSpacing {
+    line-height: 24px;
+    padding: 8px 56px 8px;
+    position: relative !important;
+}
+
+.rewardsOutline {
+    box-sizing: border-box;
+    display: block;
+    float: none;
+    line-height: 24px;
+    position: static;
+    visibility: hidden !important;
+    z-index: auto;
+}
+
+.rewardsFlex {
+    align-items: flex-end;
+    box-sizing: border-box;
+    color: rgba(0, 0, 0, 0.87);
+    display: flex;
+    flex-direction: column;
+    line-height: 24px;
+}
+
+.rewardsButtonBorder {
+    box-sizing: inherit;
+    transition-delay: 100ms;
+    visibility: visible !important;
+}
+
+.rewardsSubmitButton {
+    background: none;
+    border-color: #000; 
+    border-radius: 50px;
+    border-style: solid;
+    border-width: 1px;
+    color: rgba(0, 0, 0, .87);
+    cursor: pointer;
+    display: block;
+    font-size: 18px;
+    font-weight: 600;
+    margin: 8px 0px 0px 466px;
+    min-width: 26px;
+    min-height: 26px;
+    padding: 7px 16px;
+    text-align: center;
+    text-decoration: none;
+    transition: all .2s ease;
+}
+
+.rewardsSubmitButton:hover{
+    background-color: #e6e6e6;
+    color: #000;
+}
+/*%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%*/
+
+.rewardsBottomSectionTwo{
+    box-sizing: border-box;
+    display: block;
+    line-height: 24px;
+    margin-bottom: 128px;
+    position: static
+}
+
+.rewardsBottomSectionTwoContainerOne{
+    box-sizing: border-box;
+    display: block;
+    line-height: 24px;
+    max-width: 1440px;
+    margin: auto !important;
+    padding: 0px 40px;
+    position: static;
+}
+.rewardscontainerOneDimensions{
+    box-sizing: border-box;
+    display: block;
+    line-height: 24px;
+    max-width: 1440px;
+}
+
+.rewardscontainerOneInnerSpacing{
+    line-height: 24px;
+    margin-left: 185.667px;
+    width: 557px
+}
+
+.rewardscontainerOneInner {
+    box-sizing: border-box;
+    display: block;
+    line-height: 24px;
+    position: static;
+}
+
+.rewardscontainerOneInner>h2 {
+    box-sizing: border-box;
+    display: block;
+    font-size: 28px;
+    font-weight: 600;
+    font-family: SoDoSans, Helvetica Neue, Helvetica, Arial, sans-serif;
+    line-height: 38.78px;
+    margin: 0px;
+    padding-bottom: 16px;
+    position: static;
+}
+
+.rewardscontainerOneInner>span{
+    box-sizing: border-box;
+    display: block;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: SoDoSans, Helvetica Neue, Helvetica, Arial, sans-serif;
+    line-height: 24px;
+    letter-spacing: -0.16px;
+    margin: 0px;
+    padding-bottom: 16px;
+    position: static;
+}
+
+.rewardscontainerOneInner>a{
+    align-items: center !important;
+    background-color: transparent;
+    color: #00a862 !important;
+    display: inline-flex;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: SoDoSans, Helvetica Neue, Helvetica, Arial, sans-serif;
+    line-height: 24px;
+    letter-spacing: -0.16px;
+    margin-left: 4px;
+    text-align: inherit;
+    text-decoration: underline;
+    text-decoration-color:#00a862;
+}
+.rewardscontainerOneInner>svg{
+    color: rgb(0, 168, 98);
+    fill: currentcolor;
+    height: 24px;
+    line-height: 24px;
+    overflow: visible;
+    vertical-align: middle;
+    width: 24px;
+    height: 24px;
+
+}
+
+/*%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%*/
+.rewardsBottomSectionThree{
+    box-sizing: border-box;
+    display: block;
+    line-height: 24px;
+    margin-bottom: 48px;
+    position: static;
+}
+
+.rewardsBottomSectionThreeContainerOne{
+    background-color: #f9f9f9 !important;
+    box-sizing: border-box;
+    display: block;
+    line-height: 24px;
+}
+
+.rewardsbottomSectionThreeDimensions{
+    box-sizing: content-box;
+    display: block;
+    margin: 0px;
+    max-width: 1440px;
+    padding:  0px 40px;
+}
+
+.rewardsbottomSectionThreeInner{
+    box-sizing: border-box;
+    display: block;
+    line-height: 24px;
+}
+
+.rewardsbottomSectionThreeInnerSpacing {
+    display: block;
+    line-height: 24px;
+    margin: 0px;
+    padding: 0px;
+    text-align: left;
+}
+.rewardsbottomSectionThreeInnerSpacing>p{
+    color: #000;
+    font-family: SoDoSans, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    letter-spacing: -0.16px;
+    line-height: 21px;
+    margin: 0px;
+    padding: 62px 68px 32px;
+    text-align: left;
+}
+
+/*%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%*/
+
+.rewardsbottomSectionThreeBlockOne{
+    display: inline-block;
+    line-height: 24px;
+    margin: 0px;
+    padding-bottom: 32px;
+    position: relative;
+    text-align: left;
+    vertical-align: top;
+    width: 730px;
+}
+
+.rewardsbottomSectionThreeBlockOne>h2{
+    color: rgba(0, 0, 0, 0.58);
+    font-family: SoDoSans, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    letter-spacing: 1.4px;
+    line-height: 22px;
+    margin: 0px;
+    padding: 0px 68px 16px;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+.rewardsbottomSectionThreeBlockOne>p{
+    color: rgba(0, 0, 0, 0.87);
+    display: block;
+    font-family: SoDoSans, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    letter-spacing: -0.16px;
+    line-height: 18px;
+    margin: 0px;
+    padding: 0px 68px 18px;
+    text-align: left;
+}
+
+/*%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%*/
+
+.rewardsbottomSectionThreeBlockTwo{
+    display: inline-block;
+    line-height: 24px;
+    margin: 0px;
+    padding-bottom: 32px;
+    padding-left: 0px;
+    position: relative;
+    text-align: left;
+    vertical-align: top;
+    width: 710px;
+}
+
+.rewardsbottomSectionThreeBlockTwo>h2{
+    color: rgba(0, 0, 0, 0.58);
+    font-family: SoDoSans, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    letter-spacing: 1.4px;
+    line-height: 22px;
+    margin: 0px;
+    padding: 0px 68px 16px;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+.rewardsbottomSectionThreeBlockTwo>p {
+    box-sizing: border-box;
+    color: rgba(0, 0, 0, 0.87);
+    display: block;
+    font-family: SoDoSans, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    letter-spacing: -0.16px;
+    line-height: 22px;
+    margin: 0px;
+    padding: 0px 68px 18px;
+    position: relative;
+    text-align: left;
+}
+
+
+.rewardsbottomSectionThreeBlockTwo>a {
+    align-items: center !important;
+    background-color: transparent;
+    color: #00a862 !important;
+    display: inline;
+    font-family: SoDoSans, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    letter-spacing: -0.16px;
+    line-height: 22px;
+    margin: 0px;
+    padding: 0px 0px 16px;
+    position: relative;
+    text-align: left;
+    text-decoration: underline;
+    text-decoration-color: #00a862;
+}
+
+.rewardsbottomSectionThreeBlockTwo>span{
+    box-sizing: border-box;
+    display: inline;
+    color: rgb(0, 168, 98);
+    font-family: SoDoSans, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    letter-spacing: -0.16px;
+    line-height: 18px;
+    margin: 0px 5px;
+    padding: 0px;
+    text-align: left;
+}
+
+.rewardsbottomSectionThreeBlockTwo>svg {
+    box-sizing: border-box;
+    color: rgb(0, 168, 98);
+    fill: currentcolor;
+    height: 24px;
+    line-height: 22px;
+    margin: 0px;
+    overflow: visible;
+    padding: 0px 0px 18px;
+    text-align: left;
+    vertical-align: middle;
+    width: 24px;
+}
+
+.rewardsbottomSectionThreeLine {
+    color: rgba(0, 0, 0, 0.87);
+    display: block;
+    font-family: SoDoSans, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    letter-spacing: -0.16px;
+    line-height: 22px;
+    margin: 0px;
+    padding: 0px 68px 0px;
+    text-align: left;
+}
+
+/*%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%*/
+
+.rewardsbottomSectionThreeBlockThree{
+    display: inline-block;
+    line-height: 24px;
+    margin: 0px;
+    padding-bottom: 32px;
+    position: relative;
+    text-align: left;
+    vertical-align: top;
+    width: 730px;
+}
+
+.rewardsbottomSectionThreeBlockThree>h2 {
+    color: rgba(0, 0, 0, 0.58);
+    font-family: SoDoSans, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    letter-spacing: 1.4px;
+    line-height: 22px;
+    margin: 0px;
+    padding: 0px 68px 16px;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+.rewardsbottomSectionThreeBlockThree>p {
+    color: rgba(0, 0, 0, 0.87);
+    display: block;
+    font-family: SoDoSans, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    letter-spacing: -0.16px;
+    line-height: 20px;
+    margin: 0px;
+    padding: 0px 68px 18px;
+    text-align: left;
+}
+
+/*%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%*/
+
+
+.rewardsbottomSectionThreeBlockFour {
+    display: inline-block;
+    line-height: 24px;
+    margin: 0px;
+    padding-bottom: 32px;
+    padding-left: 0px;
+    position: relative;
+    text-align: left;
+    vertical-align: top;
+    width: 710px;
+}
+
+.rewardsbottomSectionThreeBlockFour>h2{
+    color: rgba(0, 0, 0, 0.58);
+    font-family: SoDoSans, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    letter-spacing: 1.4px;
+    line-height: 22px;
+    margin: 0px;
+    padding: 0px 68px 16px;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+.rewardsbottomSectionThreeBlockFour>p{
+    box-sizing: border-box;
+    color: rgba(0, 0, 0, 0.87);
+    display: block;
+    font-family: SoDoSans, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    letter-spacing: -0.16px;
+    line-height: 18px;
+    margin: 0px;
+    padding: 0px 68px 23px;
+    position: relative;
+    text-align: left;
 }
