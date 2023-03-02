@@ -607,6 +607,7 @@
 /*%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%*/
 
  .innerSectionTwo{
+    box-sizing: inherit;
     display: block;
     flex-grow: 1 !important;
     width: 375px;
@@ -631,7 +632,9 @@
     font-feature-settings: "calt";
     font-size: 16px;
     font-weight: 400;
-    padding-bottom: 40px;
+    letter-spacing: -0.16px;
+    line-height: 24px;
+    padding-bottom: 30px;
     position: relative;
     text-align: Left !important;
 }
